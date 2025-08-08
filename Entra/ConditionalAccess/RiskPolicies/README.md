@@ -18,11 +18,11 @@ Prior to deploying, you should always review the reports for user and sign-in ri
 
 We typically recommend the following 5 policies as a starting point:
 
-- Medium or high Sign-in risk for regular user - Require MFA
-- High User risk regular users - Require password change
-- Low or medium Sign-in risk for admins - Require MFA
-- High Sign-in risk for admins - Block
-- Medium or high user risk for admins - Block
+- [Medium or high Sign-in risk for regular user - Require MFA](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/User-SignInRisk-MediumHigh-RequireMFA.json)
+- [High User risk regular users - Require password change](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/User-UserRisk-High-PasswordReset.json)
+- [Low or medium Sign-in risk for admins - Require MFA](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/Admin-SignInRisk-LowMedium-RequireMFA.json)
+- [High Sign-in risk for admins - Block](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/Admin-SignInRisk-High-Block.json)
+- [Medium or high user risk for admins - Block](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/Admin-UserRisk-MediumHigh-Block.json)
 
 These are available as JSON files for download in this folder and can be directly imported to Conditional Access in Entra portal:
 
