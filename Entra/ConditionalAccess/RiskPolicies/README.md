@@ -20,6 +20,7 @@ We typically recommend the following 5 policies as a starting point:
 
 - [Medium or high Sign-in risk for regular user - Require MFA](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/User-SignInRisk-MediumHigh-RequireMFA.json)
 - [High User risk regular users - Require password change](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/User-UserRisk-High-PasswordReset.json)
+  - Change to Block if not using Self-Service Password Reset
 - [Low or medium Sign-in risk for admins - Require MFA](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/Admin-SignInRisk-LowMedium-RequireMFA.json)
 - [High Sign-in risk for admins - Block](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/Admin-SignInRisk-High-Block.json)
 - [Medium or high user risk for admins - Block](https://github.com/PatriotConsultingTech/Community/blob/ed989f646a319b571e91374182da7d462dbfda01/Entra/ConditionalAccess/RiskPolicies/Admin-UserRisk-MediumHigh-Block.json)
